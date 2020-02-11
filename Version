@@ -1,11 +1,105 @@
-t1
-
-
-wfe
-wf
-fw
-wf
-
-wfea
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-g
+[InstallUpdate1]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(1)"][!SetVariable Installed 1][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate2]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(2)"][!SetVariable Installed 2][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate3]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(3)"][!SetVariable Installed 3][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate4]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(4)"][!SetVariable Installed 4][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate5]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(5)"][!SetVariable Installed 5][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate6]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(6)"][!SetVariable Installed 6][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate7]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(7)"][!SetVariable Installed 7][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate8]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(8)"][!SetVariable Installed 8][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate9]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(9)"][!SetVariable Installed 9][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate10]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(10)"][!SetVariable Installed 10][!Update]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+[InstallUpdate11]
+Measure=WebParser
+URL="https://forum.rainmeter.net/viewtopic.php?f=4&t=25303&p=132963#p132963"
+RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+StringIndex=1
+FinishAction=[!CommandMeasure Lua "Output(11)"][!SetVariable Installed 11][!Update][!Delay 500][!Refresh]
+DynamicVariables=1
+DecodeCharacterReference=1
+Disabled=1
+; [InstallUpdate12]
+; Measure=WebParser
+; URL=[GetUpdate]
+; RegExp=(?siU)&lt;BM#CurrentlyInstalling#&gt;(.*)&lt;/BM#CurrentlyInstalling#&gt;
+; FinishAction=[!CommandMeasure Lua "Output(12)"]
+; Disabled=1
